@@ -8,6 +8,10 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    if BRANDS.include()
+    
+    
+    
     BRANDS.each do |item|
       if brand == item
     
