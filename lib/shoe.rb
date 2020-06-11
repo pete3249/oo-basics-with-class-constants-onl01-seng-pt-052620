@@ -9,9 +9,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     binding.pry
-    if BRANDS.include?(brand)
-      BRANDS
-    else
+    if BRANDS.include?(brand) == false
       BRANDS << brand
     end 
   end
