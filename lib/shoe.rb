@@ -8,6 +8,10 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    BRANDS.each do |item|
+      if brand == item
+    
+    
     BRANDS << brand
     BRANDS.uniq
   end
