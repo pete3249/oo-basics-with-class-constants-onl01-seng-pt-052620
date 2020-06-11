@@ -8,16 +8,12 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    if BRANDS.include?("brand")
-    
-    
-    
-    BRANDS.each do |item|
-      if brand == item
-    
-    
-    BRANDS << brand
-    BRANDS.uniq
+    binding.pry
+    if BRANDS.include?(brand)
+      BRANDS
+    else
+      BRANDS << brand
+    end 
   end
   
   
