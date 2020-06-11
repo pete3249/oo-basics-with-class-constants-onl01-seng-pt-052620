@@ -8,6 +8,11 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    BRANDS << brand
+    
+    BRANDS.each do |item|
+      
+    
       if BRANDS.include?(brand)
         if false
           BRANDS << brand
